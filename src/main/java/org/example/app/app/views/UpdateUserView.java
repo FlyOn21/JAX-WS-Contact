@@ -24,7 +24,6 @@ public class UpdateUserView {
     }
 
     public String updateUserViewProcessing(String[] data) {
-        String isValid;
         CreateUpdateParams updateParams = new CreateUpdateParams();
         ReadParams readParamsById = new ReadParams();
         List<String> inputData = Arrays.asList(data);
